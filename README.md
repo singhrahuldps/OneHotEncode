@@ -5,6 +5,9 @@ Requirements -> Pandas, Numpy
 
 ## Installation
 	pip install OneHotEncode
+	
+	df,dropped_cols,all_new_cols,new_col_dict = OneHotEncode(df,Categorical_column_list,check_numerical=False,max_var=20)
+
 
 ## Usage
 	from OneHotEncode.OneHotEncode import *
