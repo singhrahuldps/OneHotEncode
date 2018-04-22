@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'OneHotEncode',
   packages = ['OneHotEncode'], # this must be the same as the name above
-  version = '0.1',
+  version = '0.2',
   description = 'A python script to deploy One-Hot encoding in Pandas Dataframes',
   author = 'Rahul Singh',
   author_email = 'singhrahuldps@gmail.com',
