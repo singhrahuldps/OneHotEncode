@@ -24,11 +24,9 @@ def OneHotEncode(pandas_dataframe,category_columns=[],check_numerical=False,max_
 	
 	for col in category_columns:
 
-		# Total number of rows in each column
-		total_rows=len(df[category_columns[0]].values)
-
 		category_elements=[]
 		main_row=df[str(col)].values
+		total_rows=len(main_row)
 		for category_element in main_row:
 			category_elements.append(category_element)
 		category_elements=list(set(category_elements))
